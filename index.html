@@ -4,7 +4,8 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="src/style.css"/>
-    <title> Chinese Poem Generator</title>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <title> Chinese Poem Generator</title>
 </head>
 <body>
     <div class="container">
@@ -15,14 +16,14 @@
         </header>
 
         <main>
-            <form>
+            <form id="poem-generator-form">
                 <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off" class="instructions"/>
                 <input type="submit" class="submit-button"/>
             </form>
-            <div class="poem">
-                Poem place
+            <div class="poem" id="poem">
+               
             </br>
-                The Cat in the Hat
+                
             </div>
             
             <footer> This project was coded by <a href="https://github.com/Bone-Structure"target="_blank">Abigail Greene</a> and is open-sourced on <a href="https://github.com/Bone-Structure/chinese-poem-generator" target="_blank">Git-hub</a> and hosted by <a href="https://ai-chinese-poem-328.netlify.app/" target="_blank">Netlify</a></footer>
